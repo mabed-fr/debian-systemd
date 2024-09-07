@@ -16,9 +16,11 @@ GitHub Package Registry.
 These tags are available. They are updated on changes to the `main` branch
 and are automatically rebuilt once a week.
 
-* `ghcr.io/hifis-net/debian-systemd:12`
-* `ghcr.io/hifis-net/debian-systemd:11`
-* `ghcr.io/hifis-net/debian-systemd:10`
+
+* `ghcr.io/mabed-fr/debian-systemd:testing`
+* `ghcr.io/mabed-fr/debian-systemd:12`
+* `ghcr.io/mabed-fr/debian-systemd:11`
+* `ghcr.io/mabed-fr/debian-systemd:10`
 
 ## How to Use
 
@@ -26,5 +28,5 @@ and are automatically rebuilt once a week.
 * Run the container via Podman:
 
   ```bash
-  podman run -it --systemd=true --privileged ghcr.io/hifis-net/debian-systemd:11
+  podman run -it --systemd=true --privileged ghcr.io/mabed-fr/debian-systemd:11
   ```
