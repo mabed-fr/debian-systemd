@@ -3,9 +3,10 @@
 Systemd Debian Container Images for testing Ansible roles with Molecule and Podman.
 Supported Debian versions:
 
-* `12` - Bookworm
-* `11` - Bullseye
-* `10` - Buster
+* `Testing` - Testing (Currently 13) 
+* `12`      - Bookworm
+* `11`      - Bullseye
+* `10`      - Buster
 
 ## Available Images
 
@@ -27,8 +28,3 @@ and are automatically rebuilt once a week.
   ```bash
   podman run -it --systemd=true --privileged ghcr.io/hifis-net/debian-systemd:11
   ```
-
-## Authors
-
-This project is maintained by [HIFIS](https://www.hifis.net).
-It is built upon https://github.com/geerlingguy/docker-debian11-ansible.
